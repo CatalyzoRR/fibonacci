@@ -21,7 +21,7 @@ fn main() {
     let (mut prev, mut next) = (0, 1);
 
     for _ in 0..count {
+        print!("{prev} ");
         (prev, next) = (next, prev + next);
     }
-    print!("{prev} ");
 }
